@@ -9,8 +9,9 @@ public class MessageRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		System.out.println("Message Runner");
-		System.out.println("This is second added message");
+		int age = 10;
+		
+		System.out.println("This is second added message, age is"+age);
      
 	}
 
