@@ -10,6 +10,7 @@ public class MessageRunner implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		
 		System.out.println("Message Runner");
+		System.out.println("This is second added message");
      
 	}
 
