@@ -12,7 +12,9 @@ public class MessageRunner implements CommandLineRunner {
 		
 		int age = 10;
 		System.out.println("This is second added message, age is"+age);
-     
+		
+		String location = "Agarthipalem";
+		System.out.println(location);
 	}
 
 }
